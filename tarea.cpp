@@ -13,6 +13,21 @@ float *cuadratica();
 void gastosDinero();
 bool parImpar();
 
+/*
+    COLORES
+    
+    0 = Negro
+    1 = Azul
+    2 = Verde
+    3 = Aguamarina
+    4 = Rojo
+    5 = Purpura
+    6 = Amarillo
+    7 = Blanco
+    8 = Gris
+    9 = Azul claro
+*/
+
 int main()
 {
     int o = 0;
@@ -27,8 +42,9 @@ int main()
     cout << "2. Area y Perimetro" << endl;
     cout << "3. Formula Cuadratica" << endl;
     cout << "4. Gasto de dinero" << endl;
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8);
     cout << "Cerrar (ctrl + c)..." << endl;
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
     cout << "Elegir Programa: " << endl;
 
     do
@@ -202,7 +218,7 @@ void gastosDinero()
 
 bool parImpar()
 {
-    cout << "----Cuadratica----" << endl;
+    cout << "----Par o Impar----" << endl;
     int dato;
 
     cout << "Ingrese numero(entero):" << endl;
