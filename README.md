@@ -1,6 +1,6 @@
 ## Comando para compilar .EXE
 ```
-g++ -o dir/Tarea tarea.cpp
+g++ -o dir/Lab lab#.cpp
 ```
 
 
@@ -8,6 +8,6 @@ g++ -o dir/Tarea tarea.cpp
 ## Comando ejecutar ,EXE
 
 ```
-.\dir\Tarea.exe
+.\dir\Lab.exe
 ```
 
