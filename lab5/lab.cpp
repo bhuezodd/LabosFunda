@@ -32,7 +32,7 @@ void clear(int);
 void resultF(string value, string text)
 {
     cout << "------------------------" << endl;
-    if (text == "sucess")
+    if (text == "success")
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 2);
     }
