@@ -81,7 +81,7 @@ void view1()
     int num = 1, d = 6;
     int data[100];
     positionXY(0, 4);
-    cout << "Ingresar numero entero:" << endl;
+    cout << "Ingresar numero entero(Para este lab colocar 1):" << endl;
     cout << "=> ";
     cin >> num;
     data[0] = num;
